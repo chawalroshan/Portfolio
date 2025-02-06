@@ -1,0 +1,126 @@
+.navbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 50;
+  backdrop-filter: blur(8px);
+  transition: background-color 0.3s;
+}
+
+.navbar.dark {
+  background-color: rgba(17, 24, 39, 0.9);
+}
+
+.navbar.light {
+  background-color: rgba(255, 255, 255, 0.9);
+}
+
+.navbar-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 1rem;
+}
+
+.navbar-content {
+  height: 4rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.logo {
+  font-size: 1.25rem;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.logo-blue {
+  color: var(--primary-color);
+}
+
+.logo-text {
+  color: inherit;
+}
+
+.nav-links {
+  display: none;
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: inherit;
+  opacity: 0.8;
+  transition: opacity 0.2s;
+}
+
+.nav-links a:hover {
+  opacity: 1;
+}
+
+.theme-toggle {
+  padding: 0.5rem;
+  border-radius: 9999px;
+  border: none;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: background-color 0.2s;
+}
+
+.dark .theme-toggle {
+  background-color: rgba(255, 255, 255, 0.1);
+  color: var(--text-light);
+}
+
+.light .theme-toggle {
+  background-color: rgba(0, 0, 0, 0.05);
+  color: var(--text-dark);
+}
+
+.mobile-menu {
+  display: flex;
+  gap: 1rem;
+}
+
+.menu-button {
+  padding: 0.5rem;
+  border-radius: 0.5rem;
+  border: none;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: none;
+  color: inherit;
+}
+
+.mobile-nav {
+  padding: 1rem 0;
+}
+
+.mobile-nav a {
+  display: block;
+  padding: 0.5rem 0;
+  text-decoration: none;
+  color: inherit;
+  opacity: 0.8;
+  transition: opacity 0.2s;
+}
+
+.mobile-nav a:hover {
+  opacity: 1;
+}
+
+@media (min-width: 768px) {
+  .nav-links {
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+  }
+
+  .mobile-menu {
+    display: none;
+  }
+}
