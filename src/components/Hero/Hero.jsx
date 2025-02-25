@@ -26,7 +26,7 @@ function Hero() {
               Hi, I'm <span className="logo-blue">Roshan</span>
             </h1>
             <h2 className="hero-subtitle">
-            Mid Level Software Engineer
+            Software Engineer
             </h2>
             <p className="hero-description">
               Passionate about creating elegant solutions to complex problems. 
