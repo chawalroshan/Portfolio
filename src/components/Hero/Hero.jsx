@@ -37,20 +37,20 @@ function Hero() {
             <div className="cta-container">
               <button 
                 className="download-button"
-                onClick={() => window.open('/path-to-your-cv.pdf')}
+                onClick={() => window.open('images/Roshan-Chawal-cv.pdf')}
               >
                 <Download className="w-5 h-5" />
                 Download CV
               </button>
               
               <div className="social-links">
-                <a href="#" className="social-link">
+                <a href="https://github.com/" className="social-link">
                   <Github className="w-5 h-5" />
                 </a>
-                <a href="#" className="social-link">
+                <a href="https://www.linkedin.com/in/roshan-chawal-91270a285/" className="social-link">
                   <Linkedin className="w-5 h-5" />
                 </a>
-                <a href="#" className="social-link">
+                <a href="mailto:chawalroshan@gmail.com" className="social-link">
                   <Mail className="w-5 h-5" />
                 </a>
               </div>
