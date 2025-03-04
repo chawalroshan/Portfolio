@@ -9,18 +9,18 @@ const Skills = () => {
       <h1>Skills</h1>
       <div className='Skills__list'>
         <ul className='Skills__item'>
-          <li className='l1'><FaReact /> React</li>
-          <li className='l2'><FaJs /> JavaScript</li>
-          <li className='l3'><FaPhp /> PHP</li>
-          <li className='l4'><FaWordpress /> WordPress</li>
-          <li className='l5'><FaNodeJs /> Node</li>
-          <li className='l6'><FaHtml5 /> HTML</li>
-          <li className='l7'><FaCss3Alt /> CSS</li>
-          <li className='l8'>
+          <li className='l1'><a href='https://react.dev/'><FaReact /> React</a></li>
+          <li className='l2'><a href='https://developer.mozilla.org/en-US/docs/Web/JavaScript'><FaJs /> JavaScript</a></li>
+          <li className='l3'><a href='https://www.php.net/'><FaPhp /> PHP</a></li>
+          <li className='l4'><a href='https://wordpress.org/'><FaWordpress /> WordPress</a></li>
+          <li className='l5'><a href='https://nodejs.org/'><FaNodeJs /> Node</a></li>
+          <li className='l6'><a href='https://developer.mozilla.org/en-US/docs/Web/HTML'><FaHtml5 /> HTML</a></li>
+          <li className='l7'><a href='https://developer.mozilla.org/en-US/docs/Web/CSS'><FaCss3Alt /> CSS</a></li>
+          <li className='l8'><a href='https://mui.com/'>
             <img src={materialUILogo} alt="Material UI" width="16" height="16" />
             Material UI
-          </li>
-          <li className='l9'><FaGithub /> GitHub</li>
+            </a></li>
+          <li className='l9'><a href='https://github.com/'><FaGithub /> GitHub</a></li>
         </ul>
       </div>
     </div>

@@ -19,8 +19,10 @@
     gap: 2rem;
   }
   
-  .Skills__item li {
+  .Skills__item li a{
+    text-decoration: none;
     background-color: #4b8efb;
+    color: aliceblue;
     min-width: 100px; 
     padding: 2rem 3rem;
     text-align: center;
