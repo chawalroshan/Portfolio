@@ -70,7 +70,7 @@ gap:1rem;
 
 
 @media screen and (max-width: 426px) {
-  .Skills__item li {
+  .Skills__item li a{
     width: 100%;
     display: flex;
     justify-content: center;
@@ -80,7 +80,7 @@ gap:1rem;
 }
 
 @media screen and (max-width: 768px) {
-  .Skills__item li {
+  .Skills__item li a{
     width: 100px;
     display: flex;
     justify-content: center;
