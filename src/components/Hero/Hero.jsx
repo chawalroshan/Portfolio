@@ -37,7 +37,7 @@ function Hero() {
             <div className="cta-container">
               <button 
                 className="download-button"
-                onClick={() => window.open('images/Roshan-Chawal-cv.pdf')}
+                onClick={() => window.open('images/ROSHAN-CHAWAL-SD-Resume.pdf')}
               >
                 <Download className="w-5 h-5" />
                 Download CV
