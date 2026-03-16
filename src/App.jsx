@@ -21,7 +21,7 @@ function App() {
         setIsMenuOpen={setIsMenuOpen}
       />
       <Hero />
-      <Footer />
+      {/* <Footer /> */}
     </div>
   );
 }
